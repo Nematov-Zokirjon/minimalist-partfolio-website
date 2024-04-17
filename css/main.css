@@ -322,7 +322,7 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
-            margin: 96px 0;
+        margin: 96px 0;
     }   
     .about-me__wrapper__img{
         display: block;
@@ -331,4 +331,70 @@
         display:  none;
     }
 }
+@media only screen and (max-width: 400px) {
+    .about-me__wrapper__text-box p{
+        font-size: 13px;
+        line-height: 25px;
+    }
+}
 /* -----------------  ABOUT ME END   ---------------------------- */
+
+
+/* -------------  CONTACT   ---------------- */
+.contact-box__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 150px 0 ;
+}
+.contact-box__wrapper h2{
+    font-family: var(--fontPrimary);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -0.36px;
+    color: var(--Grayish-Dark-Blue);
+}
+.contact-box__wrapper span{
+    width: 100%;
+    max-width: 534px;
+    height: 1px;
+    background-color: var(--Grayish-Dark-Blue);
+    opacity: 15%;
+}
+@media only screen and (max-width: 1110px) {
+    .contact-box__wrapper span{
+        width: 100%;
+        max-width: 334px;
+    }
+}
+@media only screen and (max-width: 930px) {
+    .contact-box__wrapper span{
+        width: 100%;
+        max-width: 113px;
+    }
+}
+@media only screen and (max-width: 691px) {
+    .contact-box__wrapper span{
+        display: none;
+    }
+    .contact-box__wrapper{
+      padding: 10px 0 96px 0 ;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .contact-box__wrapper h2{
+        text-align:center;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .contact-box__wrapper h2{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    .contact-box__wrapper{
+        gap: 40px;
+      }
+}
+/* -------------  CONTACT END   ---------------- */
+    
