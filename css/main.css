@@ -292,7 +292,6 @@
     border-top: 1px solid rgba(51, 50, 61, 15%);
     border-bottom: 1px solid rgba(51, 50, 61, 15%);
     padding-left: 10px;
-
 }
 .about-me__wrapper__text-box h2{
     font-family: var(--fontPrimary);
@@ -453,3 +452,23 @@
 }
 
 /* -------------  FOOTER END   ---------------- */
+
+
+/* ----------------PARTFOLIO SECTION-------------------- */
+    .partfolio__wrapper{
+        width: 100%;
+        max-width: 1015px;
+    }
+    .partfolio__wrapper__text-box{
+        width: 100%;
+        max-width: 350px;
+        height: 500px;
+    }
+    .partfolio__wrapper-2{
+        flex-direction: row-reverse;
+        float: right;
+    }
+    .partfolio__wrapper{
+        margin: 80px 0;
+    }
+/* ----------------PARTFOLIO SECTION END-------------------- */
