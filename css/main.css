@@ -471,4 +471,112 @@
     .partfolio__wrapper{
         margin: 80px 0;
     }
+@media only screen and (max-width: 982px) {
+    .partfolio__wrapper-2{
+        flex-direction: column;
+    }
+}
 /* ----------------PARTFOLIO SECTION END-------------------- */
+
+
+
+.hero__img-box{
+    margin-bottom: 100px;
+}
+.manage-texts__wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.manage-texts__box-1{
+    width: 100%;
+    max-width: 400px;
+    border-bottom: 1px solid rgba(51, 50, 61, 15%);
+    border-top: 1px solid rgba(51, 50, 61, 15%);
+    padding:  0 0 32px 0 ;
+    margin-bottom: 40px;
+}
+.manage-texts__box-1__texts p{
+    color: var(--Grayish-Dark-Blue);
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+.manage-texts__box-1__h2-1{
+    color: var(--Grayish-Dark-Blue);
+    font-family: var(--fontPrimary);
+    font-weight: 700;
+    font-size: 40;
+    line-height: 1;
+    letter-spacing: -0.36px;
+    margin: 30px 0 29px 0 ;
+}
+.manage-texts__box-1__links{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.manage-texts__box-1__links a{
+    color: var(--Slightly-Desaturated-Cyan);
+    font-family: var(--fontSecondary);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+.manage-texts__box-1__h2-2{
+    display: none;
+    color: var(--Grayish-Dark-Blue);
+    font-family: var(--fontPrimary);
+    font-weight: 700;
+    font-size: 40;
+    line-height: 1;
+    letter-spacing: -0.36px;
+    margin: 32px 0 16px 0 ;
+}
+.manage-texts__box-2{
+    width: 100%;
+    max-width: 635px;
+    display: flex;
+    flex-direction: column;
+}
+.manage-texts__box-2 h2{
+    color: var(--Grayish-Dark-Blue);
+    font-size:32px ;
+    font-weight: var(--fontWeight);
+    line-height: 42px;
+    letter-spacing: -0.29px;
+    font-family: var(--fontSecondary);
+    margin-bottom: 29px;
+}
+.manage-texts__box-2 p{
+    font-size: 15px;
+    line-height: 2;
+    font-family: var(--fontSecondary);
+    margin-bottom: 40px;
+}
+.manage-texts__box-2 h3{
+    color: var(--Grayish-Dark-Blue);
+    font-size:32px ;
+    font-weight: var(--fontWeight);
+    line-height: 42px;
+    letter-spacing: -0.29px;
+    font-family: var(--fontSecondary);
+    margin-bottom: 28px;
+}
+.manage-texts__box-2 img{
+    margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .hero__img-box{
+        margin-bottom: 40px;
+    }
+}
