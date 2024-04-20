@@ -92,7 +92,9 @@
       margin: 0 auto;
       padding: 0 20px;
   }
-  
+  input{
+    outline: none;
+  }
   .global-btn{
     border: 1px solid var(--Grayish-Dark-Blue);
     padding: 17px 32px;
@@ -475,10 +477,17 @@
     .partfolio__wrapper-2{
         flex-direction: column;
     }
+    .partfolio__wrapper__text-box{
+        height: 400px;
+    }
+    .partfolio__wrapper{
+        margin: 50px 0;
+    }
 }
 /* ----------------PARTFOLIO SECTION END-------------------- */
 
 
+/* ----------------PARTFOLIO ALL PAGES-------------------- */
 
 .hero__img-box{
     margin-bottom: 100px;
@@ -700,3 +709,142 @@
         line-height: 20px;
     }
 }
+/* ----------------PARTFOLIO ALL PAGES END-------------------- */
+
+
+
+
+/* ----------------CONTACT SECTION-------------------- */
+.contact-section__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.contact-section__wrapper__box-1{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-top: 1px solid rgba(51, 50, 61, 0.281);
+    padding: 48px 0; 
+}
+.contact-section__wrapper__box-1__texts{
+    width: 50%;
+}
+.contact-section__wrapper__box-1 h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--fontPrimary);
+    line-height: 42px;
+    letter-spacing: -0.36px;
+}
+.contact-section__wrapper__box-1__texts p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact-section__wrapper__box-1__texts__imgs{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0;
+}
+
+.contact-section__wrapper__box-2{
+    display: flex;
+    align-items: start;
+    border-top: 1px solid rgba(51, 50, 61, 0.281);
+    justify-content: space-between;
+    padding: 48px 0 100px 0;
+
+}
+.contact-section__wrapper__box-2__form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    max-width: 635px;
+}
+.contact-section__wrapper__box-2__form label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--Grayish-Dark-Blue);
+ }
+.contact-section__wrapper__box-2__form label input{
+    border: none;
+    background: rgba(51, 50, 61, 0.123);
+    font-size: 13px;
+    line-height: 30px;
+    font-family: var(--fontSecondary);
+    margin-top: 8px;
+}
+.contact-section__wrapper__box-2__form label input:focus{
+    outline: 1px solid   rgba(95, 180, 162, 1);
+
+}
+.contact-section__wrapper__box-2 h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--fontPrimary);
+    line-height: 42px;
+    letter-spacing: -0.36px;
+}
+.contact__btn{
+    padding: 17px 40px;
+    margin-top: 24px;
+    background: var(--Dark-Blue);
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: var(--fontSecondary);
+    color: var(--Light-Grey-Text-Field);
+}
+.contact__btn:hover{
+    opacity: 90%;
+}
+.contact-section__wrapper__box-2__form__input-1 input,
+.contact-section__wrapper__box-2__form__input-2 input{
+    padding: 11px 0 11px 11px;
+    margin-bottom:24px ;
+}
+.contact-section__wrapper__box-2__form__input-3 input{
+    padding: 11px 0 50px 18px;
+}
+
+
+
+
+@media only screen and (max-width: 770px) {
+    .contact-section__wrapper__box-1{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .contact-section__wrapper__box-1__texts{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .contact-section__wrapper__box-1__texts p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact-section__wrapper__box-1 h2{
+        font-size: 35px;
+        line-height: 30px;
+        letter-spacing: -0.32px;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+    .contact-section__wrapper__box-2{
+        flex-direction: column;
+        gap: 32px;
+    }
+   
+}
+
+/* ----------------CONTACT SECTION END-------------------- */
